@@ -473,7 +473,7 @@ html {
     padding: 7px;
     width: 30px; }
     .rrss__logos--nav {
-      transform: translate(-28px);
+      transform: translate(10px);
       display: flex;
       flex-direction: row; }
 

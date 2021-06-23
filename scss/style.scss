@@ -365,13 +365,13 @@
 	justify-content: space-around;
 	&__titulos{
 		text-align:center;
-		color:$blue6;
+		color:white;
 		font-weight:300;
 	}
 }
 
 .fondoTips{
-	background-image:linear-gradient(to bottom, white, #1CB6CE);
+	background-image:linear-gradient(to bottom, white, $blue6, $blue6, $blue6, $blue6,);
 }
 
 .gridOdontoTips{
@@ -496,20 +496,39 @@ font-size:20px;
 	padding:20px;
 }
 
-/*--Metodología BEM  aplicada :
+
+/*-----CARTEL FLOTANTE INDEX----------------------------------------------------------------
+------------------------------------------------------------------------*/
+
+.reservaFlotante {
+	position:fixed;
+	top: 250px;
+	right: 20px;
+	display: flex;
+	justify-content: flex-end;
+	z-index:999999;
+}
+
+.reservaFlotanteClose {
+	position:fixed;
+	top: 210px;
+	right: 10px;
+	display: flex;
+	justify-content: flex-end;
+	z-index:999999;
+}
+
+.reservaFlotanteTexto {
+	position:fixed;
+	top: 265px;
+	right: 37px;
+	display: flex;
+	justify-content: flex-end;
+	z-index:9999999;
+	font-weight: 500;
+}
 
 
 
-
-- .horarios - (index.html)
-- .rrss - (index.html)
-- .botones - (contacto.html)
-- .portadasTrat - (tratamientos.html)
-- .articulos - (tratamientos.html)
-- .tips - (odontotips.html)
-- .fondoTips - (odontotips.html)
-- .bordesTips - (odontotips.html)
-
-
---*/
-
+/*-----FIN CARTEL FLOTANTE INDEX----------------------------------------------------------------
+------------------------------------------------------------------------*/

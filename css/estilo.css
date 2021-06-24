@@ -340,6 +340,9 @@ html {
 .colorTexto-blue--5 {
   color: #106571; }
 
+.colorTexto-blue--6 {
+  color: #0C4D56; }
+
 .colorTexto-grayScale--white {
   color: white; }
 
@@ -473,7 +476,7 @@ html {
     padding: 7px;
     width: 30px; }
     .rrss__logos--nav {
-      transform: translate(10px);
+      transform: translate(-28px);
       display: flex;
       flex-direction: row; }
 
@@ -619,53 +622,6 @@ html {
   padding-top: 30px; }
 
 /*Fin PROFESIONALES---------------------*/
-/*MOBILE------------------------------------------------------------------
-------------------------------------------------------------------------*/
-@media only screen and (max-width: 769px) {
-  .botonCartelMobile {
-    transform: translate(208px, -89px);
-    z-index: 99999;
-    font-size: 12px; }
-  .portadaMobile {
-    background-image: url(../assets/img/portadamobile.jpg);
-    background-size: 100%;
-    color: white;
-    font-family: 'Mulish', sans-serif;
-    font-size: 21px;
-    font-style: italic;
-    font-weight: 500;
-    padding-left: 185px;
-    padding-right: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 0px;
-    background-repeat: no-repeat;
-    padding-top: 0px; }
-  .botonProfMobile {
-    transform: translate(272px, -51px);
-    width: 44%;
-    font-size: 13px; }
-  .encabezadosMob {
-    transform: translate(121px); }
-  .textoCentradoMob {
-    text-align: center; }
-  .fuente1Mobile {
-    font-size: 19px; }
-  .fuente2Mobile {
-    font-size: 14px; }
-  .posicionNombresMob {
-    transform: translate(-52px, 113px); }
-  .whatsappMobile {
-    position: fixed;
-    top: 550px;
-    right: 50px;
-    display: flex;
-    justify-content: flex-end;
-    transform: translate(-12px, -96px);
-    width: 10%; } }
-
-/*Fin MOBILE----------------------------*/
 /*TRATAMIENTOS------------------------------------------------------------
 ------------------------------------------------------------------------*/
 .gridTratamientos {
@@ -736,15 +692,6 @@ html {
 
 .fondoTips {
   background-image: linear-gradient(to bottom, white, #0C4D56, #0C4D56, #0C4D56, #0C4D56); }
-
-.gridOdontoTips {
-  display: grid;
-  grid-template-rows: 150px 150px 150px;
-  grid-template-columns: 250px 250px 250px;
-  justify-content: center;
-  grid-column-gap: 5px;
-  grid-row-gap: 10px;
-  text-align: center; }
 
 .bordesTips {
   border: solid 1px #168D9F; }
@@ -884,3 +831,60 @@ html {
 
 /*-----FIN CARTEL FLOTANTE INDEX----------------------------------------------------------------
 ------------------------------------------------------------------------*/
+/*MOBILE------------------------------------------------------------------
+------------------------------------------------------------------------*/
+@media only screen and (max-width: 769px) {
+  .botonCartelMobile {
+    transform: translate(208px, -89px);
+    z-index: 99999;
+    font-size: 12px; }
+  .portadaMobile {
+    background-image: url(../assets/img/portadamobile.jpg);
+    background-size: 100%;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 500;
+    padding-left: 185px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    padding-top: 0px; }
+  .botonProfMobile {
+    transform: translate(272px, -51px);
+    width: 44%;
+    font-size: 13px; }
+  .encabezadosMob {
+    transform: translate(121px); }
+  .textoCentradoMob {
+    text-align: center; }
+  .fuente1Mobile {
+    font-size: 19px; }
+  .fuente2Mobile {
+    font-size: 14px; }
+  .posicionNombresMob {
+    transform: translate(-52px, 113px); }
+  .whatsappMobile {
+    position: fixed;
+    top: 550px;
+    right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(-12px, -96px);
+    width: 10%; }
+  .fondoContactoMobile {
+    background-image: url(../assets/img/fondo-contacto-mobile.jpg); }
+  .rrssMobile {
+    transform: translate(0px);
+    display: flex;
+    flex-direction: row; }
+  .centrarItemsMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
+
+/*Fin MOBILE----------------------------*/

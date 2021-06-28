@@ -213,7 +213,7 @@
 	text-align: center;
 }
 
-.portadasTrat {
+.portadasTratTips {
    &__fondo {
 		background-size:100%;
 		border-radius: 5px;
@@ -221,7 +221,8 @@
 		font-family:'Mulish', sans-serif;
 		font-size: 20px;
 		font-weight: 500;
-		padding: 80px;
+		padding-bottom: 70px;
+		padding-top: 70px;
 		margin-top: 10px;
 		display:flex;
 		justify-content: center;
@@ -304,13 +305,6 @@
 }
 
 
-.bordesTips{
-	border:solid 1px #168D9F;
-		&--red{
-			border:solid 3px red;
-		}
-	}
-
 @each $portadas-tips in cuidados-postop, enfermedades-oc, generales, higiene-imp, higiene-ort, higiene-prot, mitos, nunca, tecnicas {
    .#{$portadas-tips}-img { 
          background-image:  
@@ -319,19 +313,7 @@
     }
 }  
 
-.fuentePortadasTips{
-   border-radius: 10px;
-   color: black;
-   font-family: 'Mulish', sans-serif;
-   font-size: 18px;
-   font-weight: 500;
-   padding: 10px;
-   margin-top: 10px;
-   display: flex;
-   justify-content: center;
-   align-items: flex-end;
-   text-decoration: none;
-}
+
 /*FIN Odontotips-------------------------*/
 
 

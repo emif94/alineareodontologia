@@ -382,11 +382,11 @@ html {
 
 .articulos__estilo {
   color: white;
-  font-weight: 300;
-  font-family: .articulos__estilo --blanco;
-    font-family-background-image: white;
-    font-family-padding-top: 50px;
-    font-family-background-size: 100%; }
+  font-weight: 300; }
+  .articulos__estilo--blanco {
+    background-image: white;
+    padding-top: 50px;
+    background-size: 100%; }
   .articulos__estilo--azul1 {
     background-image: linear-gradient(to bottom, white, #1CB6CE);
     padding-top: 50px;
@@ -690,13 +690,9 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
-  .tips__titulos {
-    text-align: center;
-    color: white;
-    font-weight: 300; }
 
 .fondoTips {
-  background-image: linear-gradient(to bottom, white, #0C4D56, #0C4D56, #0C4D56, #0C4D56); }
+  background-image: linear-gradient(to bottom, white, white, #0C4D56); }
 
 .cuidados-postop-img {
   background-image: url("../assets/img/odontotips/cuidados-postop.jpg");

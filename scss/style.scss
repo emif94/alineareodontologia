@@ -293,15 +293,10 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	&__titulos{
-		text-align:center;
-		color:white;
-		font-weight:300;
-	}
 }
 
 .fondoTips{
-	background-image:linear-gradient(to bottom, white, $blue6, $blue6, $blue6, $blue6,);
+	background-image:linear-gradient(to bottom, white, white, $blue6,);
 }
 
 

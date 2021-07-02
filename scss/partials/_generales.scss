@@ -149,7 +149,7 @@ html {
 
 
 
-/*-----COLORES TEXTO, BACKGROUNDS--------------------------------------------------------->>>*/
+/*-----COLORES TEXTO, BACKGROUNDS, SOMBRAS--------------------------------------------------------->>>*/
 
 
 .fondo1 {
@@ -236,7 +236,6 @@ html {
 			background-image: white;
 			padding-top:50px;
 			background-size: 100%;
-
 		}
 
 		&--azul1{
@@ -277,3 +276,12 @@ html {
 		}		
 	}
 }
+
+.sombra1{
+	text-shadow: white 2px 2px 5px;
+}
+
+.sombra2{
+	text-shadow: $blue6 2px 2px 2px;
+}
+

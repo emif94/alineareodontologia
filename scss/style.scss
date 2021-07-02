@@ -107,13 +107,10 @@
 }
 
 
-/*Prueba*/
-
 .marginQuienesSomos {
 	margin-left:0px;
 	margin-right:0px;
 	margin-top:24px;
-	
 }
 
 .paddingFotoQuienesSomos{
@@ -503,9 +500,9 @@ font-size:20px;
 
 
 	.rrssMobile {
-		transform: translate(0px);
+		transform: translate(-16px);
 		display:flex;
-		flex-direction:row;		
+		flex-direction:row;
 	}	
 
 	.centrarItemsMobile{
@@ -514,8 +511,18 @@ font-size:20px;
 		justify-content: center;
 	}
 
-} 
+	.menuNavMobile {
+	display: flex;
+	justify-content: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	}
 
+	.logoNavMobile{
+	width:35%;
+	}
+
+} 
 
 
 

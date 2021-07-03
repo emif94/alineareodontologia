@@ -527,15 +527,15 @@ html {
   padding-right: 5px; }
 
 .transicionBotonCartel {
-  transition: all 0s; }
+  transition: all 2s; }
 
 .transicionBotonCartel:hover {
-  border: 3px #0C4C55 solid;
-  background-image: url(../assets/img/logosmile.jpg);
+  border: 1px #0C4C55 solid;
+  background-color: white;
   background-size: 100%;
   text-decoration: none;
   color: #0C4C55;
-  font-weight: 700; }
+  font-weight: 300; }
 
 .fondoTurno {
   background-image: url(../assets/img/agenda2.jpeg);
@@ -824,7 +824,6 @@ html {
 @media only screen and (max-width: 769px) {
   .botonCartelMobile {
     transform: translate(208px, -89px);
-    z-index: 99999;
     font-size: 12px; }
   .portadaMobile {
     background-image: url(../assets/img/portadamobile.jpg);

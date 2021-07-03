@@ -766,7 +766,7 @@ html {
 
 .prlxFondoContacto {
   /* The image used */
-  background-image: url(../assets/img/fondocontacto.jpg);
+  background-image: url(../assets/img/fondocontacto7.jpg);
   /* Set a specific height */
   height: 500px;
   /* Create the parallax scrolling effect */
@@ -865,7 +865,9 @@ html {
     transform: translate(-12px, -96px);
     width: 10%; }
   .fondoContactoMobile {
-    background-image: url(../assets/img/fondo-contacto-mobile.jpg); }
+    background-attachment: inherit;
+    background-image: url(../assets/img/fondocontactovertical.jpg);
+    background-repeat: repeat; }
   .rrssMobile {
     transform: translate(-16px);
     display: flex;

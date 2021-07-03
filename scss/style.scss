@@ -350,7 +350,7 @@
 
   /* The image used */
 
-  background-image: url(../assets/img/fondocontacto.jpg);
+  background-image: url(../assets/img/fondocontacto7.jpg);
 
   /* Set a specific height */
 
@@ -495,7 +495,9 @@ font-size:20px;
 	}
 
 	.fondoContactoMobile{
-	background-image: url(../assets/img/fondo-contacto-mobile.jpg);
+	background-attachment: inherit;
+	background-image: url(../assets/img/fondocontactovertical.jpg);
+	background-repeat: repeat;
 	}
 
 

@@ -169,7 +169,7 @@
 }
 
 .logoFooter{
-	background: no-repeat;
+	background-repeat: no-repeat;
 	padding: 10px;
 	opacity:0.5;
 	padding-top: 0px;
@@ -466,6 +466,12 @@ font-size:20px;
 		transform: translate(121px);
 	}
 
+	.equipoIndexMobile{
+
+		background-image: url(../assets/img/fondoequipo11.jpg);
+		background-size: 100%;
+	}
+
 	.textoCentradoMob {
 		text-align: center;
 	}
@@ -486,11 +492,11 @@ font-size:20px;
 	.whatsappMobile {
 		 position: fixed;
 	    top: 550px;
-	    right: 50px;
+	    right: 2px;
 	    display: flex;
 	    justify-content: flex-end;
 	    transform: translate(-12px, -96px);
-	    width: 10%;
+	    width: 13%;
 	}
 
 	.fondoContactoMobile{
@@ -523,7 +529,18 @@ font-size:20px;
 	width:35%;
 	}
 
+	.textoCentradoMobile{
+	text-align:center;
+	}
+
+	.flexProfMobile {
+	display:flex;
+	flex-direction:column-reverse;
+	justify-content:center;
+	}
+
 } 
+
 
 
 

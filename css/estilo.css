@@ -56,10 +56,10 @@ html {
   color: #106571; }
 
 .centrarItems {
-  padding-top: 0px;
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 0px; }
 
 .centrarItemsCol {
   display: flex;
@@ -422,6 +422,9 @@ html {
 .sombra2 {
   text-shadow: #0C4D56 2px 2px 2px; }
 
+.boxShadow a:hover {
+  box-shadow: 5px -5px 27px #0C4D56; }
+
 /*NAV----------------------------------------------------------------------
 --------------------------------------------------------------------------*/
 .logoNav {
@@ -475,7 +478,8 @@ html {
   right: 50px;
   display: flex;
   justify-content: flex-end;
-  z-index: 999999; }
+  z-index: 999999;
+  border-radius: 50px; }
 
 .rrss {
   display: flex;
@@ -618,7 +622,7 @@ html {
   margin-top: 0px; }
 
 .logoFooter {
-  background: no-repeat;
+  background-repeat: no-repeat;
   padding: 10px;
   opacity: 0.5;
   padding-top: 0px;
@@ -847,6 +851,9 @@ html {
     font-size: 13px; }
   .encabezadosMob {
     transform: translate(121px); }
+  .equipoIndexMobile {
+    background-image: url(../assets/img/fondoequipo11.jpg);
+    background-size: 100%; }
   .textoCentradoMob {
     text-align: center; }
   .fuente1Mobile {
@@ -858,11 +865,11 @@ html {
   .whatsappMobile {
     position: fixed;
     top: 550px;
-    right: 50px;
+    right: 2px;
     display: flex;
     justify-content: flex-end;
     transform: translate(-12px, -96px);
-    width: 10%; }
+    width: 13%; }
   .fondoContactoMobile {
     background-attachment: inherit;
     background-image: url(../assets/img/fondocontactovertical.jpg);
@@ -881,6 +888,12 @@ html {
     padding-right: 20px;
     padding-left: 20px; }
   .logoNavMobile {
-    width: 35%; } }
+    width: 35%; }
+  .textoCentradoMobile {
+    text-align: center; }
+  .flexProfMobile {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center; } }
 
 /*Fin MOBILE----------------------------*/

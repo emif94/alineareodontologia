@@ -80,15 +80,12 @@ html {
 }
 
 
-@mixin flex-row-center{
+
+.centrarItems{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-}
-
-.centrarItems{
 	padding-top:0px;
-	@include flex-row-center
 }
 
 .centrarItemsCol{
@@ -285,3 +282,6 @@ html {
 	text-shadow: $blue6 2px 2px 2px;
 }
 
+.boxShadow a:hover{
+	box-shadow: 5px -5px 27px $blue6;
+}

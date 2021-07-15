@@ -40,6 +40,9 @@ html {
 .bordesRedon {
   border-radius: 12px; }
 
+.bordesRedon2 {
+  border-radius: 7px; }
+
 .fuenteAlineare {
   font-family: 'Lobster', cursive;
   color: #1CB8D0;
@@ -653,7 +656,7 @@ html {
   font-family: 'Mulish', sans-serif;
   font-size: 20px;
   font-weight: 500;
-  padding-bottom: 70px;
+  padding-bottom: 90px;
   padding-top: 70px;
   margin-top: 10px;
   display: flex;
@@ -750,9 +753,8 @@ html {
   .botones__contacto {
     font-size: 15px;
     font-weight: 300;
-    border-radius: 10px;
-    padding: 7px;
-    color: black; }
+    margin-left: 10px;
+    margin-right: 6px; }
 
 .fondoDatosContacto {
   background-color: rgba(255, 255, 255, 0.3);
@@ -770,7 +772,7 @@ html {
 
 .prlxFondoContacto {
   /* The image used */
-  background-image: url(../assets/img/fondocontacto7.jpg);
+  background-image: url(../assets/img/fondocontacto11.jpg);
   /* Set a specific height */
   height: 500px;
   /* Create the parallax scrolling effect */
@@ -872,7 +874,7 @@ html {
     width: 13%; }
   .fondoContactoMobile {
     background-attachment: inherit;
-    background-image: url(../assets/img/fondocontactovertical.jpg);
+    background-image: url(../assets/img/fondocontactovertical2.jpg);
     background-repeat: repeat; }
   .rrssMobile {
     transform: translate(-16px);

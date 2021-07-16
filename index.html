@@ -17,7 +17,7 @@
 
       <!--AOS-->
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-      <!--WOW.js-->
+      <!--Animate.css (https://animate.style/)-->
         <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -124,7 +124,7 @@
 
 
             
-            <h2 class=" textoCentrado titulosSecundariosAzul" id="protocolo">Covid-19 <img src="assets/img/coronavirus.png" width="8%" class="animate__animated animate__rollIn"></h2>
+            <h2 class=" textoCentrado titulosSecundariosAzul wow animate__animated animate__slideInLeft" data-wow-delay="0.5s" id="protocolo">Covid-19 <img src="assets/img/coronavirus.png" width="8%" class="wow animate__animated animate__rollIn" data-wow-delay="1s" data-wow-duration="3s"></h2>
             <p class="estiloParrafos textoCentrado ">Con el objetivo de cuidarnos entre todos, en <span class="fuenteAlineare">Alineare</span> utilizamos todas las medidas de bioseguridad posibles. <br>
             Para evitar contagios hacia el personal de la clínica y hacia otros pacientes, te invitamos a ver el siguiente video y a leer el protocolo adjunto. </p>
             <div class="centrarItems"><iframe width="560" height="315" src="https://www.youtube.com/embed/-EKYi0cDAXY" title="Video de protocolo Covid-19 en la clínica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -154,7 +154,7 @@
 
         <div class="row fondo1">
 
-          <div class="col-lg-12 quienesSomosFuente sombra1">    
+          <div class="col-lg-12 quienesSomosFuente sombra1 wow animate__animated animate__flash"  data-wow-duration="3s" data-wow-iteration="10">    
           Reservá tu turno!     
           </div>
 
@@ -195,7 +195,7 @@
 
 
           <div class="col-lg-3 col-sm-12">       
-          <div class="centrarItemsMobile"><a href="pages/contacto.html"><button type="button" class="btn btn-outline-light marginTop2">Reservar</button></a></div>  
+          <div class="centrarItemsMobile"><a href="pages/contacto.html"><button type="button" class="wow animate__animated animate__pulse btn btn-outline-light marginTop2" data-wow-iteration="10">Reservar</button></a></div>  
           </div>
 
         </div>    
@@ -249,7 +249,7 @@
            </div>
 
            <div class="col-lg-2 col-xs-12 rrss textoFooter">    
-            <div class="textoFooter textoCentradoMobile">Covid-19</div>
+            <div class="textoFooter textoCentradoMobile ">Covid-19</div>
             <a href="#protocolo" class=" textoFooter textoFooter--small textoCentradoMobile">Protocolo</a>          
             <a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19"  target="_blank"><p class=" textoFooter textoFooter--small textoCentradoMobile">Más información</p></a>
            </div> 
@@ -281,6 +281,7 @@
          <script>
          new WOW().init();
          </script>
+
     </body>  
 </html>
 

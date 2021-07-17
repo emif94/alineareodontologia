@@ -14,6 +14,10 @@
       <!--fuente logo-->
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+                 <!--Animate.css (https://animate.style/)-->
+      <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
 
     <body class="prlxFondoContacto fondoContactoMobile mulish">
@@ -69,7 +73,7 @@
       <h1 class="centrarItems gradienteNav titulosPrincipales  paddingBott1 paddingTop1">Comunicate con nosotros</h1>
 
 
-      <section  class="container-fluid paddingTop5"> 
+      <section  class="container-fluid paddingTop5  wow animate__animated animate__fadeInUp" data-wow-duration="2s"> 
         <div class="row"> 
 
           <div class="col-lg-2"></div>
@@ -78,7 +82,7 @@
 
           <div class="col-lg-4">
 
-            <h2 class="titulosSecundarios textoCentrado">Mejorá tu sonrisa</h2>
+            <h2 class="titulosSecundarios textoCentrado wow animate__animated animate__fadeInUp" data-wow-duration="10s">Mejorá tu sonrisa</h2>
 
             <form action="#" class="botones">
 
@@ -130,7 +134,7 @@
               <!--Comienzo icono flotante-->
       <section>
         <article>
-        <a href="https://api.whatsapp.com/send/?phone=5492612560889&text&app_absent=0" target="_blank"><img src="../assets/img/whatsapp2.png" width="4%" alt="whatsapp" class="whatsapp  whatsappMobile"></a>
+        <a href="https://api.whatsapp.com/send/?phone=5492612560889&text&app_absent=0" target="_blank"><img src="../assets/img/whatsapp3.png" width="4%" alt="whatsapp" class="whatsapp whatsappMobile wow animate__animated animate__headShake animatedhover"></a>
         </article>
 
       </section>
@@ -180,7 +184,11 @@
 
          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>    
-
+          <!--WOW-js-->
+         <script src="../js/wow.min.js"></script>
+         <script>
+         new WOW().init();
+         </script>
 
     </body>  
 </html>

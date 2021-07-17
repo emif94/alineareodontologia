@@ -320,8 +320,8 @@ html {
 .marginR9 {
   margin-right: 180px; }
 
-/*-----IMAGENES--------------------------------------------------------------------------->>>*/
-/*-----COLORES TEXTO, BACKGROUNDS, SOMBRAS--------------------------------------------------------->>>*/
+/*-----IMAGENES------------------------------------------------------------------>>>*/
+/*-----COLORES TEXTO, BACKGROUNDS, SOMBRAS--------------------------------------->>>*/
 .fondo1 {
   background-color: #0C4C55; }
 
@@ -427,6 +427,13 @@ html {
 
 .boxShadow a:hover {
   box-shadow: 5px -5px 27px #0C4D56; }
+
+/*-----Animaciones--------------------------------------------------------------->>>*/
+.animatedhover {
+  animation-play-state: paused; }
+
+.animatedhover:hover {
+  animation-play-state: running; }
 
 /*NAV----------------------------------------------------------------------
 --------------------------------------------------------------------------*/
@@ -866,7 +873,7 @@ html {
     transform: translate(-52px, 113px); }
   .whatsappMobile {
     position: fixed;
-    top: 550px;
+    top: 630px;
     right: 2px;
     display: flex;
     justify-content: flex-end;
@@ -874,7 +881,7 @@ html {
     width: 13%; }
   .fondoContactoMobile {
     background-attachment: inherit;
-    background-image: url(../assets/img/fondocontactovertical2.jpg);
+    background-image: url(../assets/img/fondocontactovertical3.jpg);
     background-repeat: repeat; }
   .rrssMobile {
     transform: translate(-16px);

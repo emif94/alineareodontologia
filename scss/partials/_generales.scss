@@ -148,11 +148,11 @@ html {
   .marginR#{$i} {margin-right: 20px* $i;}
 }
 
-/*-----IMAGENES--------------------------------------------------------------------------->>>*/
+/*-----IMAGENES------------------------------------------------------------------>>>*/
 
 
 
-/*-----COLORES TEXTO, BACKGROUNDS, SOMBRAS--------------------------------------------------------->>>*/
+/*-----COLORES TEXTO, BACKGROUNDS, SOMBRAS--------------------------------------->>>*/
 
 
 .fondo1 {
@@ -290,4 +290,13 @@ html {
 
 .boxShadow a:hover{
 	box-shadow: 5px -5px 27px $blue6;
+}
+
+/*-----Animaciones--------------------------------------------------------------->>>*/
+
+.animatedhover {
+  animation-play-state: paused;
+}
+.animatedhover:hover {
+  animation-play-state: running;
 }

@@ -277,6 +277,18 @@
 	}
 }
 
+.subir {
+	position:fixed;
+	top: 480px;
+	right: 64px;
+	display: flex;
+	justify-content: flex-end;
+	z-index:999999;
+	width:2%;
+}
+
+
+
 
 /*FIN Tratamientos-----------------------*/
 
@@ -412,17 +424,18 @@ font-size:20px;
 
 .reservaFlotanteTexto {
 	position:fixed;
-	top: 265px;
-	right: 37px;
+	top: 253px;
+	right: 29px;
 	display: flex;
 	justify-content: flex-end;
 	z-index:9999999;
 	font-weight: 500;
+	text-align:center;
 }
 
 
 
-/*-----FIN CARTEL FLOTANTE INDEX----------------------------------------------------------------
+/*-----FIN CARTEL FLOTANTE INDEX------------------------------------------
 ------------------------------------------------------------------------*/
 
 /*MOBILE------------------------------------------------------------------
@@ -432,26 +445,26 @@ font-size:20px;
 @media only screen and (max-width: 769px){
 
 	.botonCartelMobile{
-	 transform: translate(208px, -89px);
-    font-size: 12px;
+		 transform: translate(208px, -89px);
+	    font-size: 12px;
 	}
 
    .portadaMobile {
-    background-image: url(../assets/img/portadamobile.jpg);
-    background-size: 100%;
-    color: white;
-    font-family: 'Mulish', sans-serif;
-    font-size: 21px;
-    font-style: italic;
-    font-weight: 500;
-    padding-left: 185px;
-    padding-right: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 0px;
-    background-repeat: no-repeat;
-    padding-top: 0px;
+	    background-image: url(../assets/img/portadamobile.jpg);
+	    background-size: 100%;
+	    color: white;
+	    font-family: 'Mulish', sans-serif;
+	    font-size: 21px;
+	    font-style: italic;
+	    font-weight: 500;
+	    padding-left: 185px;
+	    padding-right: 0px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: flex-end;
+	    margin-top: 0px;
+	    background-repeat: no-repeat;
+	    padding-top: 0px;
 	}
 
 	.botonProfMobile {
@@ -489,7 +502,7 @@ font-size:20px;
 
 	.whatsappMobile {
 		 position: fixed;
-	    top: 630px;
+	    top: 570px;
 	    right: 2px;
 	    display: flex;
 	    justify-content: flex-end;
@@ -498,9 +511,9 @@ font-size:20px;
 	}
 
 	.fondoContactoMobile{
-	background-attachment: inherit;
-	background-image: url(../assets/img/fondocontactovertical3.jpg);
-	background-repeat: repeat;
+		background-attachment: inherit;
+		background-image: url(../assets/img/fondocontactovertical3.jpg);
+		background-repeat: repeat;
 	}
 
 
@@ -517,25 +530,36 @@ font-size:20px;
 	}
 
 	.menuNavMobile {
-	display: flex;
-	justify-content: center;
-	padding-right: 20px;
-	padding-left: 20px;
+		display: flex;
+		justify-content: center;
+		padding-right: 20px;
+		padding-left: 20px;
 	}
 
 	.logoNavMobile{
-	width:35%;
+		width:35%;
 	}
 
 	.textoCentradoMobile{
-	text-align:center;
+		text-align:center;
 	}
 
 	.flexProfMobile {
-	display:flex;
-	flex-direction:column-reverse;
-	justify-content:center;
+		display:flex;
+		flex-direction:column-reverse;
+		justify-content:center;
 	}
+
+	.subirMobile {
+	   position: fixed;
+		top: 485px;
+		right: 19px;
+		display: flex;
+		justify-content: flex-end;
+		transform: translate(-12px, -96px);
+		width: 6%;
+	}
+
 
 } 
 

@@ -702,6 +702,15 @@ html {
   .fondoTrat--advertencia {
     background-color: yellow; }
 
+.subir {
+  position: fixed;
+  top: 480px;
+  right: 64px;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 999999;
+  width: 2%; }
+
 /*FIN Tratamientos-----------------------*/
 /*ODONTOTIPS------------------------------------------------------------
 ------------------------------------------------------------------------*/
@@ -823,14 +832,15 @@ html {
 
 .reservaFlotanteTexto {
   position: fixed;
-  top: 265px;
-  right: 37px;
+  top: 253px;
+  right: 29px;
   display: flex;
   justify-content: flex-end;
   z-index: 9999999;
-  font-weight: 500; }
+  font-weight: 500;
+  text-align: center; }
 
-/*-----FIN CARTEL FLOTANTE INDEX----------------------------------------------------------------
+/*-----FIN CARTEL FLOTANTE INDEX------------------------------------------
 ------------------------------------------------------------------------*/
 /*MOBILE------------------------------------------------------------------
 ------------------------------------------------------------------------*/
@@ -873,7 +883,7 @@ html {
     transform: translate(-52px, 113px); }
   .whatsappMobile {
     position: fixed;
-    top: 630px;
+    top: 570px;
     right: 2px;
     display: flex;
     justify-content: flex-end;
@@ -903,6 +913,14 @@ html {
   .flexProfMobile {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center; } }
+    justify-content: center; }
+  .subirMobile {
+    position: fixed;
+    top: 485px;
+    right: 19px;
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(-12px, -96px);
+    width: 6%; } }
 
 /*Fin MOBILE----------------------------*/
